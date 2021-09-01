@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Intro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Intro"
+        mc:Ignorable="d"
+        Title="My First WPF" Height="450" Width="800" Foreground="#FFFF370A">
+    <Window.Background>
+        <ImageBrush ImageSource="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzztnrRWLvLiIn8pQvbqvX_pEozTrdeboiw&amp;usqp=CAU" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="btnSubmit" Content="Click Here!" HorizontalAlignment="Left" Margin="357,306,0,0" VerticalAlignment="Top" Height="67" Width="159" Click="btnSubmit_Click" />
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Margin="165,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblAge" Content="Enter your age:" HorizontalAlignment="Left" Margin="70,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblOutput" Content="Label" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="65" Width="396" FontFamily="72 Black" FontSize="24" Foreground="#FFE60F0F"/>
+
+    </Grid>
+</Window>
