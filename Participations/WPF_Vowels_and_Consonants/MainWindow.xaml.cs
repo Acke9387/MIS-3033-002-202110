@@ -30,15 +30,23 @@ namespace WPF_Vowels_and_Consonants
 
         private void btnConvert_Click(object sender, RoutedEventArgs e)
         {
+            lstVowels.Items.Clear();
+            lstConsonants.Items.Clear();
             foreach (char letter in txtWord.Text.ToLower())
             {
-                if (letter == 'a' ||)
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
                 {
-
+                    lstVowels.Items.Add(letter);
                 }
-
-
+                else
+                {
+                    lstConsonants.Items.Add(letter);
+                }
             }
+
+            txtWord.Clear();
         }
+
+        
     }
 }
