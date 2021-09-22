@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Files.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Files"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="File Location:" HorizontalAlignment="Left" Margin="48,74,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFile" HorizontalAlignment="Left" Margin="138,80,0,0" Text="C:\Users\acke9387\Downloads\SalesJan2009.csv" TextWrapping="Wrap" VerticalAlignment="Top" Width="275"/>
+        <Button x:Name="btnReadFile" Content="Read File" HorizontalAlignment="Left" Margin="445,69,0,0" VerticalAlignment="Top" Height="51" Width="90" Click="btnReadFile_Click"/>
+        <ListBox x:Name="lstContents" Height="274" VerticalAlignment="Bottom"/>
+        <Button x:Name="btnWriteFile" Content="Write File" HorizontalAlignment="Left" Margin="631,69,0,0" VerticalAlignment="Top" Height="51" Width="90" Click="btnWriteFile_Click" />
+
+    </Grid>
+</Window>
