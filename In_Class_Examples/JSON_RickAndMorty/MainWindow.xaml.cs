@@ -50,7 +50,7 @@ namespace JSON_RickAndMorty
 
             imgCharacter.Source = new BitmapImage(new Uri(selected.image));
 
-            MessageBox.Show($"The url is {selected.ulr}");
+            MessageBox.Show($"The url is {selected.url}");
 
         }
     }
