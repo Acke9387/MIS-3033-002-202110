@@ -21,5 +21,10 @@ namespace JSON_GOT
         {
             InitializeComponent();
         }
+
+        public void DOSomething()
+        {
+
+        }
     }
 }

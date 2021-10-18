@@ -56,7 +56,7 @@ namespace JSON_GOT
             // Example of opening a new window
             Example ex = new Example();
             //ex.Quote = "";
-
+            ex.DOSomething();
             ex.Show();
             ex.ShowDialog();
 
