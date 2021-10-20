@@ -10,6 +10,7 @@
         <ComboBox x:Name="cboPlatforms" HorizontalAlignment="Left" Margin="36,91,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboPlatforms_SelectionChanged"/>
         <ListBox x:Name="lstGames" Margin="400,0,0,0" Height="406" VerticalAlignment="Top" MouseDoubleClick="lstGames_MouseDoubleClick"/>
         <Label x:Name="lblResultCount" Content="Result Count: 1,800" HorizontalAlignment="Left" Margin="464,411,0,0" Width="178" Height="32" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="btnExport" Content="Export Data" HorizontalAlignment="Left" Margin="184,349,0,0" VerticalAlignment="Top" Height="57" Width="116" Click="btnExport_Click"/>
 
     </Grid>
 </Window>

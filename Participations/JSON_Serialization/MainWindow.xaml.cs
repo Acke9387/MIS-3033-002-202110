@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -55,7 +56,7 @@ namespace JSON_Serialization
                 lstGames.Items.Add(g);
                 AllGames.Add(g);
             }
-            lblResultCount.Content = $"Result Count: {lstGames.Items.Count.ToString("n")}";
+            lblResultCount.Content = $"Result Count: {lstGames.Items.Count.ToString("n0")}";
 
         }
 
@@ -78,7 +79,7 @@ namespace JSON_Serialization
 
 
             }
-            lblResultCount.Content = $"Result Count: {lstGames.Items.Count.ToString("n")}";
+            lblResultCount.Content = $"Result Count: {lstGames.Items.Count.ToString("n0")}";
 
         }
 
@@ -95,6 +96,14 @@ namespace JSON_Serialization
             wd.SetData(selected);
 
             wd.ShowDialog();
+
+        }
+
+        private void btnExport_Click(object sender, RoutedEventArgs e)
+        {
+            string json = JsonConvert.SerializeObject(lstGames.Items, Formatting.Indented);
+            string selectedPlatform = cboPlatforms.Text;
+            File.WriteAllText($"{selectedPlatform}_games.json", json);
 
         }
     }
