@@ -1,0 +1,24 @@
+﻿<Window x:Class="JSON_Serialization.WindowDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Serialization"
+        mc:Ignorable="d"
+        Title="WindowDetails" Height="450" Width="470">
+    <Grid>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="54,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="141,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Platform:" HorizontalAlignment="Left" Margin="54,111,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPlatform" HorizontalAlignment="Left" Margin="141,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Release Date:" HorizontalAlignment="Left" Margin="54,156,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtReleaseDate" HorizontalAlignment="Left" Margin="141,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Summary" HorizontalAlignment="Left" Margin="54,267,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSummary" Margin="141,271,28,10" TextWrapping="Wrap" IsEnabled="False"/>
+        <Label Content="Meta Score:" HorizontalAlignment="Left" Margin="54,198,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMetaScore" HorizontalAlignment="Left" Margin="141,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="User Review:" HorizontalAlignment="Left" Margin="54,236,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtReview" HorizontalAlignment="Left" Margin="141,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+
+    </Grid>
+</Window>
