@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_ClassesExample", "WPF_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Files", "WPF_Files\WPF_Files.csproj", "{5A41DE3D-FD53-4F59-BFEE-D2E14C93CF33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{CE886F20-6206-4864-A349-FDB33722F320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{CE886F20-6206-4864-A349-FDB33722F320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Example1", "MVC_Example1\MVC_Example1.csproj", "{FA4FAC7C-7B30-405C-8609-02BC43599EE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CE886F20-6206-4864-A349-FDB33722F320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE886F20-6206-4864-A349-FDB33722F320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE886F20-6206-4864-A349-FDB33722F320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
