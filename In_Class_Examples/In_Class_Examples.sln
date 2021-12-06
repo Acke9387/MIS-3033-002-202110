@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON_RickAndMorty", "JSON_R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Example1", "MVC_Example1\MVC_Example1.csproj", "{FA4FAC7C-7B30-405C-8609-02BC43599EE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hwk_9", "Hwk_9\Hwk_9.csproj", "{FA4D47BC-E671-4FAC-AE41-A2960544B599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4FAC7C-7B30-405C-8609-02BC43599EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4D47BC-E671-4FAC-AE41-A2960544B599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4D47BC-E671-4FAC-AE41-A2960544B599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4D47BC-E671-4FAC-AE41-A2960544B599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4D47BC-E671-4FAC-AE41-A2960544B599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
